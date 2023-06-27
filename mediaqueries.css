@@ -1,0 +1,265 @@
+@media screen and (max-width:930px) {
+    * {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        box-sizing: border-box;
+    }
+
+
+    .container {
+        width: 80%;
+    }
+
+    /* header */
+    .nav-toggle i {
+        float: right;
+        display: block;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    header {
+        height: 60px;
+        padding: 10px;
+    }
+
+    header nav ul {
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #777;
+    }
+
+    /* section home */
+
+    .section1 h1 {
+        font-size: 35px;
+        font-weight: bolder;
+    }
+
+    /* section2 services */
+    .flex-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* section3  projects*/
+    .text {
+        position: absolute;
+    }
+
+
+    /* section4  brandads clients*/
+    .brandads {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    /* section5 teams*/
+
+    /* 
+    .section5 .flex2 {
+        grid-template-columns: 1fr;
+    } */
+
+    /* .flex2 {
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 10px 0 10px;
+        padding-left: 80px;
+    }
+    .flex2-text{
+        display: flex;
+        padding-left: 80px;
+    }
+    
+    .grid2 {
+        display: flex;   
+        flex-wrap: wrap;
+        width: 50%;
+        
+    } */
+
+    /* .wrap2 {
+        padding-left: 2px;
+        gap: 20px;
+        width: 50%;
+    }
+
+    .wrap2 p {
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+
+
+    .grid2 p {
+        text-align: left;
+    } */
+
+    /* section6  map and form*/
+    .content {
+        flex-wrap: wrap;
+    }
+
+    .section6 .add {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .three {
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+
+    #email {
+        width: 410px;
+    }
+
+    /* .three{
+        flex-direction: column;
+        padding:10px 0 10px 0 ;
+    } */
+
+    /* section7  address*/
+    .addressdetails {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width:1300px) {
+
+    /* header */
+    header {
+        height: 15vh;
+        /* justify-content: center;
+        align-items: center;
+        padding:10px; */
+    }
+
+    /* section3 */
+    /* .grid {
+        position: relative;
+    }  */
+
+    /* section5 */
+
+
+
+    /* .section5 {
+        width: 80%;
+    }
+
+    .section5 .flex2 {
+        width: 50%;
+        flex-wrap: wrap;
+    }
+
+
+    .section5 .grid2 {
+        flex-wrap: wrap;
+    } */
+
+    /* section3  projects*/
+    /* .section3 .flex {
+        flex-wrap: wrap;
+    } */
+
+    /* .flex2 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 10px 0 10px;
+        padding-left: 80px;
+    } */
+    /* .flex2-text{
+        display: flex;
+        
+    }
+     */
+    /* .grid2 {
+        display: flex;   
+        flex-wrap: wrap;
+                
+    } */
+
+}
+
+@media screen and (max-width:1024px) {
+    .flex2 {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    /* section3 */
+    .section3 .grid img {
+        width: 200px;
+    }
+
+
+    /* section5 */
+
+    /* section6 */
+    .content {
+        flex-wrap: wrap;
+    }
+
+    .section6 .add {
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .section6 input[type=text] {
+        width: 80%;
+        /* margin-top: 0 20px 0 20px; */
+    }
+
+    #email {
+        width: 80%
+    }
+
+    .section6 form {
+        width: 140%;
+        /* margin-right: 0; */
+    }
+
+    .bg {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .flex2-text {
+        flex-direction: column;
+    }
+}
+
+/* @media screen and (max-width:700px) {
+    .flex2-text{
+        flex-direction: column;
+    }
+} */
