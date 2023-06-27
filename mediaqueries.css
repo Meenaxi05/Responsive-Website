@@ -23,11 +23,6 @@
         display: none;
     }
 
-    header {
-        height: 60px;
-        padding: 10px;
-    }
-
     header nav ul {
         background-color: white;
         width: 100%;
@@ -75,45 +70,6 @@
 
     /* section5 teams*/
 
-    /* 
-    .section5 .flex2 {
-        grid-template-columns: 1fr;
-    } */
-
-    /* .flex2 {
-        flex-wrap: wrap;
-        width: 70%;
-        margin: 0 10px 0 10px;
-        padding-left: 80px;
-    }
-    .flex2-text{
-        display: flex;
-        padding-left: 80px;
-    }
-    
-    .grid2 {
-        display: flex;   
-        flex-wrap: wrap;
-        width: 50%;
-        
-    } */
-
-    /* .wrap2 {
-        padding-left: 2px;
-        gap: 20px;
-        width: 50%;
-    }
-
-    .wrap2 p {
-        font-size: 12px;
-        flex-wrap: wrap;
-    }
-
-
-    .grid2 p {
-        text-align: left;
-    } */
-
     /* section6  map and form*/
     .content {
         flex-wrap: wrap;
@@ -133,11 +89,6 @@
         width: 410px;
     }
 
-    /* .three{
-        flex-direction: column;
-        padding:10px 0 10px 0 ;
-    } */
-
     /* section7  address*/
     .addressdetails {
         /* flex-wrap: wrap; */
@@ -149,66 +100,16 @@
 
 }
 
-@media (max-width:1300px) {
 
-    /* header */
-    header {
-        height: 15vh;
-        /* justify-content: center;
-        align-items: center;
-        padding:10px; */
-    }
-
-    /* section3 */
-    /* .grid {
-        position: relative;
-    }  */
-
-    /* section5 */
-
-
-
-    /* .section5 {
-        width: 80%;
-    }
-
-    .section5 .flex2 {
-        width: 50%;
-        flex-wrap: wrap;
-    }
-
-
-    .section5 .grid2 {
-        flex-wrap: wrap;
-    } */
-
-    /* section3  projects*/
-    /* .section3 .flex {
-        flex-wrap: wrap;
-    } */
-
-    /* .flex2 {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 0 10px 0 10px;
-        padding-left: 80px;
-    } */
-    /* .flex2-text{
-        display: flex;
-        
-    }
-     */
-    /* .grid2 {
-        display: flex;   
-        flex-wrap: wrap;
-                
-    } */
-
-}
-
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
     .flex2 {
         flex-wrap: wrap;
+        width: 100%;
+    
+    }
+    .grid2{
+        margin-right: 50px;
+        margin-left: 90px;
     }
 
 }
@@ -220,8 +121,8 @@
         width: 200px;
     }
 
-
     /* section5 */
+
 
     /* section6 */
     .content {
@@ -258,8 +159,10 @@
     }
 }
 
-/* @media screen and (max-width:700px) {
-    .flex2-text{
-        flex-direction: column;
+@media screen and (max-width:300px) {
+    /* section5 */
+    .flex2-text {
+        flex-wrap: wrap;
+        width: 70%;
     }
-} */
+}
