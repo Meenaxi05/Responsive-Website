@@ -122,6 +122,7 @@
     .section6 .add {
         flex-direction: column;
         flex-wrap: wrap;
+        width: 95%;
     }
 
     .three {
@@ -132,11 +133,6 @@
     #email {
         width: 410px;
     }
-
-    /* .three{
-        flex-direction: column;
-        padding:10px 0 10px 0 ;
-    } */
 
     /* section7  address*/
     .addressdetails {
@@ -154,56 +150,8 @@
     /* header */
     header {
         height: 15vh;
-        /* justify-content: center;
-        align-items: center;
-        padding:10px; */
+    
     }
-
-    /* section3 */
-    /* .grid {
-        position: relative;
-    }  */
-
-    /* section5 */
-
-
-
-    /* .section5 {
-        width: 80%;
-    }
-
-    .section5 .flex2 {
-        width: 50%;
-        flex-wrap: wrap;
-    }
-
-
-    .section5 .grid2 {
-        flex-wrap: wrap;
-    } */
-
-    /* section3  projects*/
-    /* .section3 .flex {
-        flex-wrap: wrap;
-    } */
-
-    /* .flex2 {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 0 10px 0 10px;
-        padding-left: 80px;
-    } */
-    /* .flex2-text{
-        display: flex;
-        
-    }
-     */
-    /* .grid2 {
-        display: flex;   
-        flex-wrap: wrap;
-                
-    } */
-
 }
 
 @media screen and (max-width:1024px) {
@@ -235,12 +183,12 @@
     }
 
     .section6 input[type=text] {
-        width: 80%;
+        width: 74%;
         /* margin-top: 0 20px 0 20px; */
     }
 
     #email {
-        width: 80%
+        width: 74%
     }
 
     .section6 form {
@@ -253,8 +201,10 @@
         margin-right: 0;
     }
 
+    /* section5 */
     .flex2-text {
         flex-direction: column;
+        width: 50%;
     }
 }
 
