@@ -419,7 +419,6 @@ align-items: center;
 /* section6-map and form */
 
 .section6 {
-    /* background-color: #ffffff; */
     background-color: rgb(243, 236, 236);
     color: #777;
     min-height: 700px;
@@ -428,19 +427,19 @@ align-items: center;
     padding-top: 140px;
 }
 
-.section6 h3 {
-    text-align: center;
-    padding-top: 30px;
+.section6 .container{
+    display: flex;
 }
 
+
 form {
-    padding: 20px;
+    padding: 0px;
     font-family: "open sans", Arial, sans-serif !important;
     display: flex;
     flex-direction: column;
     gap: 18px;
-    width: 450px;
-    margin: auto;
+    width: 400px;
+    margin:auto;
 }
 
 .three {
@@ -464,22 +463,16 @@ button {
     cursor: pointer;
 }
 
+.location{
+    margin: auto;
+}
 button:hover {
     background: #0dcaf0;
 }
 
-.map {
-    justify-content: center;
-    display: flex;
-}
 
 .add {
     padding: 5px;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
 }
 
 .one input {
@@ -496,18 +489,50 @@ button:hover {
     background-color: rgb(243, 236, 236);
 }
 
-.bg:hover {
+/* .bg:hover {
     background-color: rgb(220, 220, 209);
-}
-
-/* .section6 .bg {
-    background-color: black;
-} */
+}  */
 
 ::placeholder {
     color: #777777;
 }
 
+/* .section6 .bg {
+    background-color: black;
+}  dont uncomment*/
+
+/* ::placeholder {
+    color: #777777;
+}
+
+
+
+
+/* section new */
+/* .section61 {
+    background-color: rgb(243, 236, 236);
+    color: #777;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    max-width: 80%;
+} */
+
+/* #map {
+    max-width:50%;
+} */
+/* form{
+    max-width: 540px;
+    margin-top: 20px;
+}
+
+#form{
+    margin:80px 50px 80px 180px
+} */
 
 /* section7 */
 
