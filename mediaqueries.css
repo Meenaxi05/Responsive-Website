@@ -154,12 +154,44 @@
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1002px) {
+    /* section5 */
     .flex2 {
         flex-wrap: wrap;
     }
 
-}
+    /* section6
+    .content {
+        flex-wrap: wrap;
+    }
+
+    .section6 .add {
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: 90%;
+    }
+
+
+    .section6 input[type=text] {
+        width: 40%;
+    }
+
+    #email {
+        width: 40%
+    }
+
+    .section6 form {
+        width: 50%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .bg {
+        width: 100%;
+        margin-right: 0;
+    }
+} */
 
 @media screen and (max-width:600px) {
 
@@ -168,9 +200,9 @@
         width: 200px;
     }
 
-
     /* section5 */
-
+    
+    
     /* section6 */
     .content {
         flex-wrap: wrap;
@@ -183,17 +215,16 @@
     }
 
     .section6 input[type=text] {
-        width: 74%;
-        /* margin-top: 0 20px 0 20px; */
+        width: 80%;
     }
 
     #email {
-        width: 74%
+        width: 80%
     }
 
     .section6 form {
-        width: 140%;
-        /* margin-right: 0; */
+        width: 150%;
+        padding-left: 50px;
     }
 
     .bg {
@@ -208,8 +239,29 @@
     }
 }
 
-/* @media screen and (max-width:700px) {
+
+@media screen and (max-width:700px) {
     .flex2-text{
         flex-direction: column;
     }
-} */
+}
+    /* 
+    @media screen and (max-width:425px) {
+
+        .section6 input[type=text] {
+            width: 120%;
+        }
+        
+        .three {
+    width: 90%;
+    }
+
+        #email {
+            width: 120%
+        }
+
+        .section6 form {
+            width: 100%;
+            padding-right:0px;
+            }
+    } */
